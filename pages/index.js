@@ -14,6 +14,15 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Giving the people what they want since 1988</p>
       </section>
+      <section>
+        <p>
+          <iframe
+            src="https://www.google.com/maps/d/u/0/embed?mid=164l6sSvw9FDWyXDxlObEG1dqVc_225U&ehbc=2E312F"
+            width="640"
+            height="480"
+          ></iframe>
+        </p>
+      </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Vlog</h2>
         <ul className={utilStyles.list}>
