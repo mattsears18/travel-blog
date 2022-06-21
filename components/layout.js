@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = "✨ Matt's Travel Blog ✨";
-export const siteTitle = "Matt's Vlog";
+const name = "✨ Matt's Super Cool Travel Blog ✨";
+export const siteTitle = "✨ Matt's Super Cool Travel Blog ✨";
 
 export default function Layout({ children, home }) {
   return (
