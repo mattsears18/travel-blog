@@ -1,13 +1,13 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
-import Date from '../components/date';
-import dynamic from 'next/dynamic';
-import Script from 'next/script';
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
+import dynamic from "next/dynamic";
+import Script from "next/script";
 
-const Odometer = dynamic(import('react-odometerjs'), {
+const Odometer = dynamic(import("react-odometerjs"), {
   ssr: false,
   loading: () => 0,
 });
@@ -40,7 +40,7 @@ export default function Home({ allPostsData }) {
           className="pa-gallery-player-widget"
           width="100%"
           height="480"
-          style={{ width: '100%', height: '480px' }}
+          style={{ width: "100%", height: "480px" }}
           // style="width:100%; height:480px; display:none;"
           data-link="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A"
           data-title="Silicon Valley Trip"
