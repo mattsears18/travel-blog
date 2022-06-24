@@ -1,5 +1,5 @@
 ---
-title: 'Gas and Sweat in St. Louie'
+title: 'Gas and Sweating in St. Louie'
 date: '2022-06-22'
 location: 'St. Louis, MO'
 miles: 437.8 # TODO - Update
