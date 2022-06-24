@@ -66,8 +66,11 @@ export default function Home({ allPostsData }) {
           // style="width:100%; height:480px; display:none;"
           data-link="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A"
           data-title="Silicon Valley Trip"
-          data-description="28 new items added to shared album"
+          data-description="67 new items added to shared album"
         >
+          <object data="https://lh3.googleusercontent.com/YW3ate6RHmuEjjOyJILfG61xgBIPt4W8jLC8ydulGj3sPSAL-gg1I8jzimMxMAMp41V976x6mkRkf9mDkEpMNcb4-KuXYu4WyOyKIKVKHygooNWfeMG9mVGDdKBxPQae9yUcowJ-h9s=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/iiRIJQ7kNLyi8g5gLnsUp88lltzxSYbQ3-d5Yj984d58m7pSPc6dq8DKcKblamK1fBMrl3ikZXSq2qwGqwOuuYAbLuiUxFmACPJ-DRcAFaO1RhVBDNJK0kuF03pRZGiKRI__5FSsfdg=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/ZXklRMFBcRSiOErp43YB7XcF9YRAAFBbbd8zdmauwLt82ckmeJpFPrFyZkp9xCLKRkJJue0QdpqOtVKyPNUxBmRwLTLMhX9YE0vZ1xya4qc0ZLjw6y1ssbe1AEHayk8_XTnjzlH2AQU=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/G3QBlgO7-9F1VlinUxjcQshCiqYH2NWFX3tpj6kYWFHOOOejPjDxHT2WXbnH2LUxTIvFxjsxn_W8aQLk-lBABIXwaJe0NDO14c_FIOiXxMtSlAnA2jILdSCSe7b6MIGfwZeBWhVEZy8=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/Xzg0AmFF9VDAM9H2E059WOKZKempStxf9vMGyBczIRLiRFWJcgCnAZHUxVzYNGml7rXePVRuVYIJNIDil0kKI7Xbj45BBK7WZbAMFQ4mbcuvrPJngbwKl1NKRnWodZvxP8Q0-FhKZ7c=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/dq8englWXvp4F04FN3YP6v7UzuEzT-2L-v-0BsL9uJB4-aSmW7VV7qDT9-IoFOUK7NFXt_tToefmcurKsiJT3_Z1L8IJgp3TaY-64Vs8KDxND7dWpXXZCDc6Di22zsSPZaJxYOQ2SC4=w1920-h1080"></object>
