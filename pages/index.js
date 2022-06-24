@@ -35,7 +35,14 @@ export default function Home({ allPostsData }) {
         <h1 className={homeStyles.odometer}>
           <Odometer value={odometerValue} />
         </h1>
-        <div className={homeStyles.odometer_caption}>Miles Traveled</div>
+        <div className={homeStyles.odometerCaption}>Miles Traveled</div>
+        <div className={homeStyles.nextStop}>Next Stop: </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/CqwJ4b" target="_blank">
+            The National Museum of Toys and Miniatures
+          </a>
+        </div>
       </section>
       <section>
         <p>
