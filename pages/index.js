@@ -1,11 +1,16 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+import homeStyles from './home.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 import dynamic from 'next/dynamic';
 import Script from 'next/script';
+import 'odometer/themes/odometer-theme-car.css';
+import { useState, useEffect } from 'react';
+
+const milesTraveled = 572.7;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -13,15 +18,25 @@ const Odometer = dynamic(import('react-odometerjs'), {
 });
 
 export default function Home({ allPostsData }) {
+  const [odometerValue, setOdometerValue] = useState(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setOdometerValue(milesTraveled);
+    }, 500);
+  }, []);
+
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <link rel="stylesheet" href="odometer-theme-car.css" />
       </Head>
-      {/* <section>
-        <Odometer value={234} theme={'car'} />
-      </section> */}
+      <section>
+        <h1 className={homeStyles.odometer}>
+          <Odometer value={odometerValue} />
+        </h1>
+        <div className={homeStyles.odometer_caption}>Miles Traveled</div>
+      </section>
       <section>
         <p>
           <iframe
