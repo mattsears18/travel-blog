@@ -2,8 +2,8 @@
 title: 'Gas and Sweat in St. Louie'
 date: '2022-06-22'
 location: 'St. Louis, MO'
-miles: 697.7 # TODO - Update
-hours: 14.15 # TODO - Update
+miles: 437.8 # TODO - Update
+hours: '8:42' # TODO - Update
 ---
 
 Yesterday, St. Louis had a high of 97℉ and I got to climb into bed at 10PM and practice sleeping hot yoga with an internal van temp of 88℉. 😵‍💫 Things got better when my propane gas detector started blaring at 3AM. Not wanting to have the cops called after the alarm woke the entire neighborhood, I jumped out of bed and turned it off. [Here's what happened next](https://www.youtube.com/embed/AxCNmVZp2Pw). Jk...
