@@ -1,18 +1,18 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-import homeStyles from './home.module.css';
-import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
-import Date from '../components/date';
-import dynamic from 'next/dynamic';
-import Script from 'next/script';
-import 'odometer/themes/odometer-theme-car.css';
-import { useState, useEffect } from 'react';
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import homeStyles from "./home.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
+import dynamic from "next/dynamic";
+import Script from "next/script";
+import "odometer/themes/odometer-theme-car.css";
+import { useState, useEffect } from "react";
 
 const milesTraveled = 714.2;
 
-const Odometer = dynamic(import('react-odometerjs'), {
+const Odometer = dynamic(import("react-odometerjs"), {
   ssr: false,
   loading: () => 0,
 });
@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
         <div className={homeStyles.nextStop}>Next Stop: </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/CqwJ4b" target="_blank">
             The National Museum of Toys and Miniatures
           </a>
@@ -62,7 +62,7 @@ export default function Home({ allPostsData }) {
           className="pa-gallery-player-widget"
           width="100%"
           height="480"
-          style={{ width: '100%', height: '480px' }}
+          style={{ width: "100%", height: "480px" }}
           // style="width:100%; height:480px; display:none;"
           data-link="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A"
           data-title="Silicon Valley Trip"
