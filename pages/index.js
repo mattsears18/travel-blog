@@ -10,7 +10,7 @@ import Script from 'next/script';
 import 'odometer/themes/odometer-theme-car.css';
 import { useState, useEffect } from 'react';
 
-const milesTraveled = 912.2;
+const milesTraveled = 942.4;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -36,12 +36,49 @@ export default function Home({ allPostsData }) {
           <Odometer value={odometerValue} />
         </h1>
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
-        <div className={homeStyles.nextStop}>Next Stop: </div>
+        <div className={homeStyles.nextStop}>Next Stops: </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
-          <a href="https://goo.gl/maps/t193HvoEsj95icvr7" target="_blank">
-            Iowa State Capitol
-          </a>
+          <a href="https://g.co/kgs/5L1Vho" target="_blank">
+            World's Only Corn Palace
+          </a>{' '}
+          Mitchell, SD
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/AjQ5PS" target="_blank">
+            Minuteman Missle Center{' '}
+          </a>{' '}
+          Philip, SD
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/PL1dVG" target="_blank">
+            Badland's National Park
+          </a>{' '}
+          SD
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/PLez3k" target="_blank">
+            Mount Rushmore
+          </a>{' '}
+          Keystone, SD
+        </div>
+
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/JAQshr" target="_blank">
+            Wind Cave National Park
+          </a>{' '}
+          Custer Co, SD
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/vRzxov" target="_blank">
+            Devil's Tower
+          </a>{' '}
+          Crook Co, WY
         </div>
       </section>
       <section>
