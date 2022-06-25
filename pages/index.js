@@ -39,8 +39,8 @@ export default function Home({ allPostsData }) {
         <div className={homeStyles.nextStop}>Next Stop: </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
-          <a href="https://g.co/kgs/CqwJ4b" target="_blank">
-            The National Museum of Toys and Miniatures
+          <a href="https://goo.gl/maps/t193HvoEsj95icvr7" target="_blank">
+            Iowa State Capitol
           </a>
         </div>
       </section>
