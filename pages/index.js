@@ -1,18 +1,18 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-import homeStyles from './home.module.css';
-import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
-import Date from '../components/date';
-import dynamic from 'next/dynamic';
-import Script from 'next/script';
-import 'odometer/themes/odometer-theme-car.css';
-import { useState, useEffect } from 'react';
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import homeStyles from "./home.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
+import dynamic from "next/dynamic";
+import Script from "next/script";
+import "odometer/themes/odometer-theme-car.css";
+import { useState, useEffect } from "react";
 
 const milesTraveled = 1304.0;
 
-const Odometer = dynamic(import('react-odometerjs'), {
+const Odometer = dynamic(import("react-odometerjs"), {
   ssr: false,
   loading: () => 0,
 });
@@ -38,46 +38,46 @@ export default function Home({ allPostsData }) {
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
         <div className={homeStyles.nextStop}>Next Stops: </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/5L1Vho" target="_blank">
             World's Only Corn Palace
-          </a>{' '}
+          </a>{" "}
           Mitchell, SD
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/AjQ5PS" target="_blank">
-            Minuteman Missle Center{' '}
-          </a>{' '}
+            Minuteman Missle Center{" "}
+          </a>{" "}
           Philip, SD
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/PL1dVG" target="_blank">
             Badland's National Park
-          </a>{' '}
+          </a>{" "}
           SD
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/PLez3k" target="_blank">
             Mount Rushmore
-          </a>{' '}
+          </a>{" "}
           Keystone, SD
         </div>
 
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/JAQshr" target="_blank">
             Wind Cave National Park
-          </a>{' '}
+          </a>{" "}
           Custer Co, SD
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/vRzxov" target="_blank">
             Devil's Tower
-          </a>{' '}
+          </a>{" "}
           Crook Co, WY
         </div>
       </section>
@@ -99,7 +99,7 @@ export default function Home({ allPostsData }) {
           className="pa-gallery-player-widget"
           width="100%"
           height="480"
-          style={{ width: '100%', height: '480px' }}
+          style={{ width: "100%", height: "480px" }}
           // style="width:100%; height:480px; display:none;"
           data-link="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A"
           data-title="Silicon Valley Trip"
