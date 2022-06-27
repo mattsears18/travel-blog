@@ -37,20 +37,7 @@ export default function Home({ allPostsData }) {
         </h1>
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
         <div className={homeStyles.nextStop}>Next Stops: </div>
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/5L1Vho" target="_blank">
-            World's Only Corn Palace
-          </a>{' '}
-          Mitchell, SD
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/AjQ5PS" target="_blank">
-            Minuteman Missle Center{' '}
-          </a>{' '}
-          Philip, SD
-        </div>
+       
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/PL1dVG" target="_blank">
