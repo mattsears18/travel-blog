@@ -37,7 +37,6 @@ export default function Home({ allPostsData }) {
         </h1>
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
         <div className={homeStyles.nextStop}>Next Stops: </div>
-       
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/PLez3k" target="_blank">
@@ -45,7 +44,6 @@ export default function Home({ allPostsData }) {
           </a>{' '}
           Keystone, SD
         </div>
-
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/JAQshr" target="_blank">
@@ -59,6 +57,20 @@ export default function Home({ allPostsData }) {
             Devil's Tower
           </a>{' '}
           Crook Co, WY
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/P8UqAW" target="_blank">
+            Yellowstone National Park
+          </a>{' '}
+          WY
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/9ubmAf" target="_blank">
+            Grand Teton National Park
+          </a>{' '}
+          WY
         </div>
       </section>
       <section>
