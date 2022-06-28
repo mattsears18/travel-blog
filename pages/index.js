@@ -10,7 +10,7 @@ import Script from 'next/script';
 import 'odometer/themes/odometer-theme-car.css';
 import { useState, useEffect } from 'react';
 
-const milesTraveled = 1569.5;
+const milesTraveled = 1685.7;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -38,13 +38,6 @@ export default function Home({ allPostsData }) {
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
         <div className={homeStyles.nextStop}>Next Stops: </div>
        
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/PL1dVG" target="_blank">
-            Badland's National Park
-          </a>{' '}
-          SD
-        </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/PLez3k" target="_blank">
