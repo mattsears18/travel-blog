@@ -60,6 +60,12 @@ export default function Home({ allPostsData }) {
         </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
+          <a href="https://g.co/kgs/8xCqb4" target="_blank">
+            Bozeman, MT
+          </a>
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
           <a href="https://g.co/kgs/P8UqAW" target="_blank">
             Yellowstone National Park
           </a>{' '}
@@ -71,6 +77,12 @@ export default function Home({ allPostsData }) {
             Grand Teton National Park
           </a>{' '}
           WY
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/6VGt8r" target="_blank">
+            Eden, UT
+          </a>
         </div>
       </section>
       <section>
