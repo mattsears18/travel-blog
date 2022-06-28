@@ -80,6 +80,12 @@ export default function Home({ allPostsData }) {
         </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
+          <a href="https://g.co/kgs/26SUYz" target="_blank">
+            Jackson, WY
+          </a>
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
           <a href="https://g.co/kgs/6VGt8r" target="_blank">
             Eden, UT
           </a>
