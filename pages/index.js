@@ -10,7 +10,7 @@ import Script from 'next/script';
 import 'odometer/themes/odometer-theme-car.css';
 import { useState, useEffect } from 'react';
 
-const milesTraveled = 1685.7;
+const milesTraveled = 1738.8;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
