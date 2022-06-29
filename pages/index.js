@@ -37,13 +37,7 @@ export default function Home({ allPostsData }) {
         </h1>
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
         <div className={homeStyles.nextStop}>Next Stops: </div>
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/PLez3k" target="_blank">
-            Mount Rushmore
-          </a>{' '}
-          Keystone, SD
-        </div>
+
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/JAQshr" target="_blank">
@@ -53,10 +47,23 @@ export default function Home({ allPostsData }) {
         </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
+          <a href="https://g.co/kgs/2zaFHe" target="_blank">
+            Motorcycle Museum & Hall of Fame
+          </a>{' '}
+          Sturgis, SD
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
           <a href="https://g.co/kgs/vRzxov" target="_blank">
             Devil's Tower
           </a>{' '}
           Crook Co, WY
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/TiqR35" target="_blank">
+            Billings, MT
+          </a>
         </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
