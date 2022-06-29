@@ -1,18 +1,18 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-import homeStyles from './home.module.css';
-import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
-import Date from '../components/date';
-import dynamic from 'next/dynamic';
-import Script from 'next/script';
-import 'odometer/themes/odometer-theme-car.css';
-import { useState, useEffect } from 'react';
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import homeStyles from "./home.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
+import dynamic from "next/dynamic";
+import Script from "next/script";
+import "odometer/themes/odometer-theme-car.css";
+import { useState, useEffect } from "react";
 
 const milesTraveled = 1738.8;
 
-const Odometer = dynamic(import('react-odometerjs'), {
+const Odometer = dynamic(import("react-odometerjs"), {
   ssr: false,
   loading: () => 0,
 });
@@ -38,54 +38,54 @@ export default function Home({ allPostsData }) {
         <div className={homeStyles.odometerCaption}>Miles Traveled</div>
         <div className={homeStyles.nextStop}>Next Stops: </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/PLez3k" target="_blank">
             Mount Rushmore
-          </a>{' '}
+          </a>{" "}
           Keystone, SD
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/JAQshr" target="_blank">
             Wind Cave National Park
-          </a>{' '}
+          </a>{" "}
           Custer Co, SD
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/vRzxov" target="_blank">
             Devil's Tower
-          </a>{' '}
+          </a>{" "}
           Crook Co, WY
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/8xCqb4" target="_blank">
             Bozeman, MT
           </a>
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/P8UqAW" target="_blank">
             Yellowstone National Park
-          </a>{' '}
+          </a>{" "}
           WY
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/9ubmAf" target="_blank">
             Grand Teton National Park
-          </a>{' '}
+          </a>{" "}
           WY
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/26SUYz" target="_blank">
             Jackson, WY
           </a>
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/6VGt8r" target="_blank">
             Eden, UT
           </a>
@@ -109,7 +109,7 @@ export default function Home({ allPostsData }) {
           className="pa-gallery-player-widget"
           width="100%"
           height="480"
-          style={{ width: '100%', height: '480px' }}
+          style={{ width: "100%", height: "480px" }}
           // style="width:100%; height:480px; display:none;"
           data-link="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A"
           data-title="Silicon Valley Trip"
