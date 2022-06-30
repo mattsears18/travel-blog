@@ -40,13 +40,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍{' '}
-          <a href="https://g.co/kgs/JAQshr" target="_blank">
-            Wind Cave National Park
-          </a>{' '}
-          Custer Co, SD
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
           <a href="https://g.co/kgs/2zaFHe" target="_blank">
             Motorcycle Museum & Hall of Fame
           </a>{' '}
@@ -99,6 +92,13 @@ export default function Home({ allPostsData }) {
         </div>
       </section>
       <section>
+        <p>
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1yvUZ-9wBUgMF3DlIzKDTe-JyzWseAI8&hl=en&ehbc=2E312F"
+            width="100%"
+            height="480"
+          ></iframe>
+        </p>
         <p>
           <iframe
             src="https://www.google.com/maps/d/u/0/embed?mid=164l6sSvw9FDWyXDxlObEG1dqVc_225U&ehbc=2E312F"
