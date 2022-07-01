@@ -6,14 +6,13 @@
 }
 
 .odometerCaption {
-  margin-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .nextStop {
-  margin-top: 20px;
+  margin-top: 1rem;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -22,8 +21,23 @@
 }
 
 .nextStopLink {
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: center;
   text-align: center;
+}
+
+.photoAlbum {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photoAlbum a {
+  padding: 1rem 1.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #0070f3;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
