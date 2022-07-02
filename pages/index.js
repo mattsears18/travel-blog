@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 
-const milesTraveled = 1826.4;
+const milesTraveled = 1931.3;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
