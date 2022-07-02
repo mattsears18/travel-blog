@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 
-const milesTraveled = 2076.3;
+const milesTraveled = 2410.9;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -49,12 +49,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStop}>Next Stops: </div>
 
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/TiqR35" target="_blank">
-            Billings, MT
-          </a>
-        </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/8xCqb4" target="_blank">
