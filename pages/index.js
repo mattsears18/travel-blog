@@ -49,12 +49,7 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStop}>Next Stops: </div>
 
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/8xCqb4" target="_blank">
-            Bozeman, MT
-          </a>
-        </div>
+      
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/P8UqAW" target="_blank">
