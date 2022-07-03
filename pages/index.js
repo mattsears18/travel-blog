@@ -1,21 +1,21 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-import homeStyles from './home.module.css';
-import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
-import Date from '../components/date';
-import dynamic from 'next/dynamic';
-import Script from 'next/script';
-import 'odometer/themes/odometer-theme-car.css';
-import { useState, useEffect } from 'react';
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import homeStyles from "./home.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
+import dynamic from "next/dynamic";
+import Script from "next/script";
+import "odometer/themes/odometer-theme-car.css";
+import { useState, useEffect } from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faImages } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faImages } from "@fortawesome/free-solid-svg-icons";
 
 const milesTraveled = 2410.9;
 
-const Odometer = dynamic(import('react-odometerjs'), {
+const Odometer = dynamic(import("react-odometerjs"), {
   ssr: false,
   loading: () => 0,
 });
@@ -42,36 +42,35 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.photoAlbum}>
           <a href="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A" target="_blank">
-            {' '}
+            {" "}
             <FontAwesomeIcon icon={faImages} /> &nbsp;Photo Album
           </a>
         </div>
 
         <div className={homeStyles.nextStop}>Next Stops: </div>
 
-      
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/P8UqAW" target="_blank">
             Yellowstone National Park
-          </a>{' '}
+          </a>{" "}
           WY
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/9ubmAf" target="_blank">
             Grand Teton National Park
-          </a>{' '}
+          </a>{" "}
           WY
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/26SUYz" target="_blank">
             Jackson, WY
           </a>
         </div>
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
+          📍{" "}
           <a href="https://g.co/kgs/6VGt8r" target="_blank">
             Eden, UT
           </a>
