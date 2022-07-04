@@ -49,14 +49,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStop}>Next Stops: </div>
 
-      
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/P8UqAW" target="_blank">
-            Yellowstone National Park
-          </a>{' '}
-          WY
-        </div>
         <div className={homeStyles.nextStopLink}>
           📍{' '}
           <a href="https://g.co/kgs/9ubmAf" target="_blank">
