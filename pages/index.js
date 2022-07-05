@@ -51,25 +51,27 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍{' '}
-          <a href="https://g.co/kgs/9ubmAf" target="_blank">
-            Grand Teton National Park
-          </a>{' '}
-          WY
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/26SUYz" target="_blank">
-            Jackson, WY
-          </a>
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍{' '}
           <a href="https://g.co/kgs/6VGt8r" target="_blank">
             Eden, UT
           </a>
         </div>
+
+        <div className={homeStyles.nextStopLink}>
+          📍{' '}
+          <a href="https://g.co/kgs/ZTpjPJ" target="_blank">
+            Ben Lomond Mountain
+          </a>{' '}
+          Pleasant View, UT
+        </div>
       </section>
       <section>
+        <p>
+          <iframe
+            src="https://www.google.com/maps/d/u/0/embed?mid=1jDDJB3SNTblt0NMDFDV_bLYwB6ueYWQ&ehbc=2E312F"
+            width="100%"
+            height="480"
+          ></iframe>
+        </p>
         <p>
           <iframe
             src="https://www.google.com/maps/d/embed?mid=1yvUZ-9wBUgMF3DlIzKDTe-JyzWseAI8&hl=en&ehbc=2E312F"
