@@ -50,18 +50,24 @@ export default function Home({ allPostsData }) {
         <div className={homeStyles.nextStop}>Next Stops: </div>
 
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/6VGt8r" target="_blank">
-            Eden, UT
+          📍
+          <a href="https://goo.gl/maps/XAk6XHdWjQyRD2mNA" target="_blank">
+            Bonneville Salt Flats
+          </a>{' '}
+          UT
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍
+          <a href="https://goo.gl/maps/gd2nWBkGBobEoue49" target="_blank">
+            Reno, NV
           </a>
         </div>
-
         <div className={homeStyles.nextStopLink}>
-          📍{' '}
-          <a href="https://g.co/kgs/ZTpjPJ" target="_blank">
-            Ben Lomond Mountain
+          📍
+          <a href="https://goo.gl/maps/HZT1nyxuSmM9txPLA" target="_blank">
+            Emerald Bay State Park
           </a>{' '}
-          Pleasant View, UT
+          Lake Tahoe, CA
         </div>
       </section>
       <section>
