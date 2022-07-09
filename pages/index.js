@@ -1,21 +1,21 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-import homeStyles from './home.module.css';
-import { getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
-import Date from '../components/date';
-import dynamic from 'next/dynamic';
-import Script from 'next/script';
-import 'odometer/themes/odometer-theme-car.css';
-import { useState, useEffect } from 'react';
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import homeStyles from "./home.module.css";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
+import dynamic from "next/dynamic";
+import Script from "next/script";
+import "odometer/themes/odometer-theme-car.css";
+import { useState, useEffect } from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faImages } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faImages } from "@fortawesome/free-solid-svg-icons";
 
 const milesTraveled = 3554.2;
 
-const Odometer = dynamic(import('react-odometerjs'), {
+const Odometer = dynamic(import("react-odometerjs"), {
   ssr: false,
   loading: () => 0,
 });
@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.photoAlbum}>
           <a href="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A" target="_blank">
-            {' '}
+            {" "}
             <FontAwesomeIcon icon={faImages} /> &nbsp;Photo Album
           </a>
         </div>
@@ -53,7 +53,7 @@ export default function Home({ allPostsData }) {
           📍
           <a href="https://goo.gl/maps/XAk6XHdWjQyRD2mNA" target="_blank">
             Bonneville Salt Flats
-          </a>{' '}
+          </a>{" "}
           UT
         </div>
         <div className={homeStyles.nextStopLink}>
@@ -66,7 +66,7 @@ export default function Home({ allPostsData }) {
           📍
           <a href="https://goo.gl/maps/HZT1nyxuSmM9txPLA" target="_blank">
             Emerald Bay State Park
-          </a>{' '}
+          </a>{" "}
           Lake Tahoe, CA
         </div>
       </section>
