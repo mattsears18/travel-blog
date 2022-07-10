@@ -51,16 +51,10 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍
-          <a href="https://goo.gl/maps/XAk6XHdWjQyRD2mNA" target="_blank">
-            Bonneville Salt Flats
+          <a href="https://goo.gl/maps/DppvMXJxpfPzbnM67" target="_blank">
+            Martis Camp{' '}
           </a>{' '}
-          UT
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://goo.gl/maps/gd2nWBkGBobEoue49" target="_blank">
-            Reno, NV
-          </a>
+          Truckee, CA
         </div>
         <div className={homeStyles.nextStopLink}>
           📍
@@ -68,6 +62,20 @@ export default function Home({ allPostsData }) {
             Emerald Bay State Park
           </a>{' '}
           Lake Tahoe, CA
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍
+          <a href="https://goo.gl/maps/tMhyegQu44MeNWfE8" target="_blank">
+            Lassen Volcanic NP{' '}
+          </a>{' '}
+          Drakesbad, CA
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍
+          <a href="https://goo.gl/maps/5dA1tHZjBC2y3SfXA" target="_blank">
+            Redwood Forest NP
+          </a>{' '}
+          Orick, CA
         </div>
       </section>
       <section>
