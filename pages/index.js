@@ -51,20 +51,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍
-          <a href="https://goo.gl/maps/DppvMXJxpfPzbnM67" target="_blank">
-            Martis Camp{' '}
-          </a>{' '}
-          Truckee, CA
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://goo.gl/maps/HZT1nyxuSmM9txPLA" target="_blank">
-            Emerald Bay State Park
-          </a>{' '}
-          Lake Tahoe, CA
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
           <a href="https://goo.gl/maps/tMhyegQu44MeNWfE8" target="_blank">
             Lassen Volcanic NP{' '}
           </a>{' '}
