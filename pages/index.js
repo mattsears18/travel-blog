@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 
-const milesTraveled = 3706.3;
+const milesTraveled = 4046.2;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -51,13 +51,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍
-          <a href="https://goo.gl/maps/tMhyegQu44MeNWfE8" target="_blank">
-            Lassen Volcanic NP{' '}
-          </a>{' '}
-          Drakesbad, CA
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
           <a href="https://goo.gl/maps/5dA1tHZjBC2y3SfXA" target="_blank">
             Redwood Forest NP
           </a>{' '}
@@ -65,6 +58,13 @@ export default function Home({ allPostsData }) {
         </div>
       </section>
       <section>
+        <p>
+          <iframe
+            src="https://www.google.com/maps/d/u/0/embed?mid=1alu0kdhB5qnwNK8_HfT9WiiE4lHQEbg&ehbc=2E312F"
+            width="100%"
+            height="480"
+          ></iframe>
+        </p>
         <p>
           <iframe
             src="https://www.google.com/maps/d/u/0/embed?mid=1jDDJB3SNTblt0NMDFDV_bLYwB6ueYWQ&ehbc=2E312F"
