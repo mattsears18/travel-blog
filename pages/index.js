@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 
-const milesTraveled = 4749.5;
+const milesTraveled = 4863.9;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -51,10 +51,18 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍
-          <a href="https://goo.gl/maps/5dA1tHZjBC2y3SfXA" target="_blank">
-            Redwood Forest NP
+          <a href="https://goo.gl/maps/DKZmWnVSfAJGNUJHA" target="_blank">
+            Apple Park
           </a>{' '}
-          Orick, CA
+          Cupertino, CA
+        </div>
+
+        <div className={homeStyles.nextStopLink}>
+          📍
+          <a href="https://goo.gl/maps/x2PZXZ6zbnPzyFRQ9" target="_blank">
+            Tesla Factory
+          </a>{' '}
+          Fremont, CA
         </div>
       </section>
       <section>
