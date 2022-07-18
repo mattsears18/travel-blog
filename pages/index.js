@@ -51,6 +51,13 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍
+          <a href="https://goo.gl/maps/1Whx1yyUZEtBXgdt6" target="_blank">
+            State Capitol Museum{' '}
+          </a>{' '}
+          CA
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍
           <a href="https://goo.gl/maps/Fs9FQiuRsfKP44TSA" target="_blank">
             Pinnacles NP{' '}
           </a>{' '}
@@ -79,6 +86,13 @@ export default function Home({ allPostsData }) {
         </div>
       </section>
       <section>
+        <p>
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1M-1xpzTzQqTfQgN_zMA1Pow4Wka0zNQ&ehbc=2E312F"
+            width="100%"
+            height="480"
+          ></iframe>
+        </p>
         <p>
           <iframe
             src="https://www.google.com/maps/d/u/0/embed?mid=1alu0kdhB5qnwNK8_HfT9WiiE4lHQEbg&ehbc=2E312F"
