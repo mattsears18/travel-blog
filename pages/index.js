@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 
-const milesTraveled = 5003.2;
+const milesTraveled = 5221.1;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -51,13 +51,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍
-          <a href="https://goo.gl/maps/1Whx1yyUZEtBXgdt6" target="_blank">
-            State Capitol Museum{' '}
-          </a>{' '}
-          CA
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
           <a href="https://goo.gl/maps/Fs9FQiuRsfKP44TSA" target="_blank">
             Pinnacles NP{' '}
           </a>{' '}
@@ -83,6 +76,20 @@ export default function Home({ allPostsData }) {
             Sequoia NP
           </a>{' '}
           CA
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍
+          <a href="https://goo.gl/maps/A9nb25wAwA5gTq1QA" target="_blank">
+            Grand Canyon NP
+          </a>{' '}
+          AZ
+        </div>
+        <div className={homeStyles.nextStopLink}>
+          📍
+          <a href="https://goo.gl/maps/qdwsq5tS9L2B3sTh8" target="_blank">
+            Home{' '}
+          </a>{' '}
+          Richmond, KY
         </div>
       </section>
       <section>
