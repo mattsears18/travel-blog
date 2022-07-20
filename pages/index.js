@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 
-const milesTraveled = 5221.1;
+const milesTraveled = 5422.6;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -49,13 +49,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStop}>Next Stops: </div>
 
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://goo.gl/maps/Fs9FQiuRsfKP44TSA" target="_blank">
-            Pinnacles NP{' '}
-          </a>{' '}
-          CA
-        </div>
         <div className={homeStyles.nextStopLink}>
           📍
           <a href="https://goo.gl/maps/Lri9DCHWWnT2fejNA" target="_blank">
