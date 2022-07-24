@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 
-const milesTraveled = 5422.6;
+const milesTraveled = 6742.3;
 
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
@@ -49,34 +49,6 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStop}>Next Stops: </div>
 
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://goo.gl/maps/Lri9DCHWWnT2fejNA" target="_blank">
-            Yosemite NP
-          </a>{' '}
-          CA
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://goo.gl/maps/UPR8pAkRvKbDsRo86" target="_blank">
-            Kings Canyon NP
-          </a>{' '}
-          CA
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://goo.gl/maps/2cuUfehEumzvBaZ66" target="_blank">
-            Sequoia NP
-          </a>{' '}
-          CA
-        </div>
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://goo.gl/maps/A9nb25wAwA5gTq1QA" target="_blank">
-            Grand Canyon NP
-          </a>{' '}
-          AZ
-        </div>
         <div className={homeStyles.nextStopLink}>
           📍
           <a href="https://goo.gl/maps/qdwsq5tS9L2B3sTh8" target="_blank">
