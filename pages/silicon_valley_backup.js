@@ -35,14 +35,13 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <h1 className={homeStyles.tripTitle}>Current Trip: Costa Rica</h1>
-        {/* <h1 className={homeStyles.odometer}>
+        <h1 className={homeStyles.odometer}>
           <Odometer value={odometerValue} />
         </h1>
-        <div className={homeStyles.odometerCaption}>Miles Traveled</div> */}
+        <div className={homeStyles.odometerCaption}>Miles Traveled</div>
 
         <div className={homeStyles.photoAlbum}>
-          <a href="https://photos.app.goo.gl/j2MEkv9ynVoiQGwg9" target="_blank">
+          <a href="https://photos.app.goo.gl/sdf6tAxt6Wk383E9A" target="_blank">
             {' '}
             <FontAwesomeIcon icon={faImages} /> &nbsp;Photo Album
           </a>
@@ -52,62 +51,14 @@ export default function Home({ allPostsData }) {
 
         <div className={homeStyles.nextStopLink}>
           📍
-          <a href="https://maps.app.goo.gl/C1j8yh2YVDHT9JPL6" target="_blank">
-            Starbucks Coffee Farm
-          </a>{' '}
-          Sabanilla, Alajuela
-        </div>
-
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://maps.app.goo.gl/HH5vyF339gQhBU2x5" target="_blank">
-            Poas Volcano National Park
-          </a>{' '}
-          Sarchí, Alajuela
-        </div>
-
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://maps.app.goo.gl/xFX2pmkG87dgza4t9" target="_blank">
-            North Fields Coffee Tour
-          </a>{' '}
-          La Fortuna, Alajuela
-        </div>
-
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://maps.app.goo.gl/ngE1eXdhA4YbGYXu7" target="_blank">
-            Rainforest Chocolate Tour
-          </a>{' '}
-          La Fortuna, Alajuela
-        </div>
-
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://maps.app.goo.gl/Aiwo8PKfVRGdGf6K9" target="_blank">
-            Bogarin Trail
-          </a>{' '}
-          La Fortuna, Alajuela
-        </div>
-
-        <div className={homeStyles.nextStopLink}>
-          📍
-          <a href="https://maps.app.goo.gl/sPpZEmoBWYw6U22Z7" target="_blank">
-            Arenal Volcano National Park
-          </a>{' '}
-          La Fortuna, Alajuela
-        </div>
-
-        {/* <div className={homeStyles.nextStopLink}>
-          📍
           <a href="https://goo.gl/maps/qdwsq5tS9L2B3sTh8" target="_blank">
             Home{' '}
           </a>{' '}
           Richmond, KY
-        </div> */}
+        </div>
       </section>
       <section>
-        {/* <p>
+        <p>
           <iframe
             src="https://www.google.com/maps/d/embed?mid=1M-1xpzTzQqTfQgN_zMA1Pow4Wka0zNQ&ehbc=2E312F"
             width="100%"
@@ -141,10 +92,10 @@ export default function Home({ allPostsData }) {
             width="100%"
             height="480"
           ></iframe>
-        </p> */}
+        </p>
       </section>
 
-      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Posts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, location, miles }) => (
@@ -161,7 +112,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section> */}
+      </section>
     </Layout>
   );
 }
