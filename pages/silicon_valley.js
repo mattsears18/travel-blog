@@ -35,6 +35,8 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section>
+        <h1 className={homeStyles.tripTitle}>Silicon Valley Trip</h1>
+
         <h1 className={homeStyles.odometer}>
           <Odometer value={odometerValue} />
         </h1>
