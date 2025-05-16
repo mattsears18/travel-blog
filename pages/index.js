@@ -35,7 +35,17 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section>
+        <div className={homeStyles.previousTrips}>
+          <h2>Previous Trips:</h2>
+          <div className={homeStyles.previousTripLink}>
+            <Link href="/silicon_valley">
+              <a>Silicon Valley</a>
+            </Link>
+          </div>
+        </div>
+
         <h1 className={homeStyles.tripTitle}>Current Trip: Costa Rica</h1>
+
         {/* <h1 className={homeStyles.odometer}>
           <Odometer value={odometerValue} />
         </h1>

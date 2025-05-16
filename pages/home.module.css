@@ -45,3 +45,28 @@
 .tripTitle {
   text-align: center;
 }
+
+.previousTrips {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.previousTrips h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.previousTripLink {
+  margin: 0.5rem 0;
+}
+
+.previousTripLink a {
+  color: #0070f3;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.previousTripLink a:hover {
+  text-decoration: underline;
+}
